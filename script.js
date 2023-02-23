@@ -17,3 +17,23 @@ else if (result >= 2000) {
   alert("მაღალი ხელფასი");
 }
 
+const numbers = [1,4,18,24,15,2,3,19,55];
+// ცარიელი მასივები სადაც გვინდა რომ მოვათავსოთ მიღებული რიცხვები.
+const luwi =[];
+const kenti=[];
+
+// forEach მეთოდი ამოწმებს მასივში თითოეულ ელემენტს.
+// % ოპერატორი ამოწმებს ნაშთიან გაყოფას.(2 ზე გაყოფისას თუ ნაშთი 0 ია შედეგი გადაგვაქ luwi-ს მასივში push-ით,)
+numbers.forEach(function (ricxvi) {
+    if (ricxvi % 2 === 0) {   
+      luwi.push(ricxvi);
+    }
+    else {
+      kenti.push(ricxvi);
+    }
+  });
+// ნაშთიანი რიცხვი გადაგვაქ kenti-ის მასივში.
+
+
+console.log("ლუწი რიცხვებია:" + luwi);
+console.log("კენტი რიცხვებია:" + kenti);
