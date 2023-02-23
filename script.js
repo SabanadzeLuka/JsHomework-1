@@ -32,7 +32,7 @@ numbers.forEach(function (ricxvi) {
       kenti.push(ricxvi);
     }
   });
-// ნაშთიანი რიცხვი გადაგვაქ kenti-ის მასივში.
+// ნაშთიანი დარჩენილი რიცხვი გადაგვაქ kenti-ის მასივში.
 
 
 console.log("ლუწი რიცხვებია:" + luwi);
